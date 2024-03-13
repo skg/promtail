@@ -1,0 +1,4 @@
+5e4bf1a8a1713171cfd4388e0359bcfe  lib/systemd/system/promtail.service
+caf81f555fc2efa473b96aee440fe986  usr/sbin/promtail
+4dda4e9ce28d2834bdc50997a1c51f4a  usr/share/doc/promtail/changelog.Debian.gz
+d41d8cd98f00b204e9800998ecf8427e  usr/share/doc/promtail/copyright

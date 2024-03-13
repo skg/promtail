@@ -1,0 +1,15 @@
+[Unit]
+Description=Promtail
+
+[Service]
+User=root
+# PENDING - this could be os specific and handled by ansible
+#EnvironmentFile=/etc/sysconfig/promtail
+EnvironmentFile=/etc/default/promtail
+#ExecStartPre=/etc/promtail/configure_logs.sh # no longer needed
+ExecStart=/usr/sbin/promtail $OPTIONS
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

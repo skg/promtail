@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installinit/13.6ubuntu1
+if [ -z "${DPKG_ROOT:-}" ] && [ "$1" = remove ] && [ -x "/etc/init.d/promtail" ] ; then
+	invoke-rc.d promtail stop || exit 1
+fi
+# End automatically added section
+# Automatically added by dh_systemd_start/13.6ubuntu1
+if [ -z "${DPKG_ROOT:-}" ] && [ "$1" = remove ] && [ -d /run/systemd/system ] ; then
+	deb-systemd-invoke stop 'promtail.service' >/dev/null || true
+fi
+# End automatically added section

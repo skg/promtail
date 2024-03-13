@@ -1,0 +1,11 @@
+Source: promtail
+Maintainer: ds-unix@uw.edu
+Section: universe/utils
+Priority: optional
+Standards-Version: LONG_VERSION
+Build-Depends: debhelper (>= 9)
+
+Package: promtail
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: DESCRIPTION

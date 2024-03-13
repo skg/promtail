@@ -1,0 +1,1 @@
+OPTIONS='-config.file=/etc/promtail/promtail_config.yaml -log.level=error'

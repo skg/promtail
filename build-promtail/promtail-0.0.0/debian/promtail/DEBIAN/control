@@ -1,0 +1,9 @@
+Package: promtail
+Version: LONG_VERSION
+Architecture: amd64
+Maintainer: ds-unix@uw.edu
+Installed-Size: 80531
+Depends: libc6 (>= 2.3.2)
+Section: universe/utils
+Priority: optional
+Description: DESCRIPTION
