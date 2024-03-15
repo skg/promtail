@@ -3,6 +3,7 @@
 - devscripts
 - debhelper
 
-apt install build-essential
-apt install devscripts
-apt install debhelper
+# install commands
+`apt install -y build-essential ;
+apt install -y devscripts ;
+apt install -y debhelper`
